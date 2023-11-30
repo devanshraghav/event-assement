@@ -3,14 +3,13 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: #fcfcfc;
-  
+  /* overflow: hidden; */
   
 }
 
 
 .navbar {
   height: 60px;
-  /* background-color: #fef7e5; */
   position: relative;
 }
 
@@ -21,7 +20,8 @@ body {
   list-style-type: none;
   
 }
-
-.nav-elements > li{
+.nav-link{
     text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
 }

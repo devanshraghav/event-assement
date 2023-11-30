@@ -1,5 +1,7 @@
 .main-box{
+  position: relative;
   background-image: linear-gradient(to bottom, #f7f7f7, white);
+  
 }
 .event-box {
   display: flex;
@@ -8,7 +10,6 @@
 
 .selection-banner {
   display: flex;
-  border: 2px solid black;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -16,16 +17,11 @@
 .event-display {
   padding: 10px 20px;
   font-size: 18px;
-  /* color: #fff; */
-  /* background-color: #333; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.upcoming:active {
-  background-color: #333;
-}
 
 .event-list{
   position: relative;
@@ -34,12 +30,13 @@
   align-items: center;
   margin: 10px;
   left:20%;
-  transform: translate(-10%,20%);
+  transform: translate(-10%,-5%);
   width: 80%;
   border: 5px solid #f7f7f7;
   box-shadow: 10px 10px #f7f7f7;
   background-color: #f7f7f7;
   background-image: linear-gradient(to bottom right, #f7f7f7, white);
+  margin-bottom: 20px;
 }
 
 .event-data {

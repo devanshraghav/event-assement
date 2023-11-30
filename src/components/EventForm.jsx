@@ -14,7 +14,6 @@ const EventForm = () => {
   const dispatch = useDispatch();
 
   const [savedForm, setSavedForm, clearForm] = useLocalStorage("eventData");
- 
 
   const handleSubmit = (e) => {
     e.preventDefault();
